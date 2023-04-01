@@ -4,6 +4,8 @@ import time
 import random
 pygame.font.init()
 
+# This was our first version of the project. It sucks =/
+
 # Display Settings
 WIDTH, HEIGHT = 1600, 900
 WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
