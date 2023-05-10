@@ -1,0 +1,36 @@
+*** Pirate Shooter ***
+
+To Run the game:
+ 
+1)locate the Game.py file.
+2)Run Game.py
+3)Enemie.py, Boss.py, Laser.py, Pattern.py, Player.py and Graphics folder should be in same directory.
+
+Game Controls:
+
+Press A to move Left.
+Press D to move Right.
+Press/Hold Left Mouse Button to Fire Laser.
+Press/Hold Right Mouse Button to Activate Shield.
+Click on X top right to close game.
+
+Game Logic:
+
+Player moves left or right, fires lasers at incoming enemies.
+
+Player Takes damage when enemie lasers collide with player and only lasers.
+
+Player can defend by activating shield. While shield is active, player will not take damage.
+
+Enemie lasers hitting an active shield will power up player laser power.
+
+Some enemies have more health than others.
+
+Players resources are located on top left. If Red HP bar hits zero the game ends.
+If blue Shield bar hits 0, the shield wont be able to activate for a short period of time.
+Everytime the green bar is maxed, it will reset and power up the player's lasers.
+
+Waves will spawn at random, after a certain amount of time. A Boss enemy will appear.
+
+Once the Boss enemy is destroyed, the Level will end. 
+
